@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="center-image">
+    <!-- for the name field -->
+    <img src="https://th.bing.com/th/id/OIP.ge8lmjyFpdlobt3AVjMOJwHaEo?w=303&h=189&c=7&r=0&o=5&dpr=1.6&pid=1.7" class="image">
+    <p id="Price"><b>Price 99 Rs</b></p>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-text">Enter your name</span>
+            <input type="text" placeholder="Full name">
+        </div>
+    </div>
+    <!-- for the quantity field -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-text">Enter quantity</span>
+            <input type="number" name="quantity" id="quantity" placeholder="Quantity">
+        </div>
+    </div>
+    <!-- for the email field -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-text">Enter your email</span>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+    </div>
+    <!-- for the phone field -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-text">Enter your phone</span>
+            <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
+        </div>
+    </div>
+    <!-- for the address field -->
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-text">Enter your address</span>
+            <input type="text" placeholder="Address">
+        </div>
+    </div>
+    <div class="mybtns">
+        <button onclick="giveAlert()" type="button" id="button1">Order</button>
+        <button type="button" id="button2">Cancel</button>
+    </div>
+  </div>
+</body>
+<script src="alert.js"></script>
+</html>

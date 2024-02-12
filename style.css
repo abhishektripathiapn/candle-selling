@@ -1,0 +1,45 @@
+.center-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Adjusted padding for the container */
+}
+
+.input-group {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-group input,
+.input-group p {
+    width: 100%;
+    padding: 8px; /* Adjusted padding for inputs and paragraphs */
+    margin-top: 6px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.input-text {
+    display: block;
+    margin-bottom: 6px;
+}
+
+button#button1,
+button#button2 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #08cee8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#button1:hover,
+button#button2:hover {
+    background-color: green;
+}
